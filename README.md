@@ -48,7 +48,7 @@ vedic_nbit_mul #(.WIDTH(HALF_WIDTH)) m1 (
 - The process continues until reaching the base case — the 2-bit Vedic multiplier.
 - After all partial results are computed, they are combined through CLA adders to produce the final result.
  
-`
+```
 2   2   2  2   2  2   2  2  2   2   2  2   2  2   2  2   
  \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/ 
   |      |      |      |      |      |      |      |
@@ -61,4 +61,4 @@ vedic_nbit_mul #(.WIDTH(HALF_WIDTH)) m1 (
              \________________________/
                           |
                           16
-`  
+```
