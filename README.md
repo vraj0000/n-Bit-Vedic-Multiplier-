@@ -41,7 +41,7 @@ vedic_nbit_mul #(.WIDTH(HALF_WIDTH)) m1 (
   .b(b[HALF_WIDTH-1:0]),
   .m(p0_sub)
 );
-
+```
 - An 8-bit multiplier will divide the problem into four 4-bit multipliers, handling the top-left, top-right, bottom-left, and bottom-right portions of the partial product matrix.
 - Each 4-bit multiplier will then divide itself into four 2-bit multipliers, following the same pattern.
 - These partial products are then combined using Carry Look-Ahead (CLA) adders at each stage.
